@@ -6199,3 +6199,5 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
+    .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
