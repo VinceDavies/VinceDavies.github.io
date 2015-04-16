@@ -55,7 +55,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
+  //background:    #fff; 
   color: #222;
   padding: 0;
   margin: 0;
@@ -6200,4 +6200,5 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
-    .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
+  .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
+
