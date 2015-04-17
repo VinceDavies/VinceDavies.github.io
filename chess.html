@@ -6,9 +6,37 @@
 
     <title>Chess</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link href="pgn4web-2.91\\mini.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" sizes="16x16" href="pgn4web-2.91\\pawn.ico" />
+    <style>
+
+    </style>
+    
+    
     <script src="js/vendor/modernizr.js"></script>
+    <script src="pgn4web-2.91\\pgn4web.js" type="text/javascript"></script>
+    <script type="text/javascript">
+   "use strict";
+
+   SetImagePath ("pgn4web-2.91/images/alpha/30");
+   SetImageType("png");
+   SetGameSelectorOptions("Select a game...", false, 0, 8, 0, 0, 0, 0, 10); // (head, num, chEvent, chSite, chRound, chWhite, chBlack, chResult, chDate);
+   SetCommentsOnSeparateLines(true);
+   SetAutoplayDelay(2500); // milliseconds
+   SetAutostartAutoplay(true);
+   SetAutoplayNextGame(true);
+   SetInitialGame("random");
+   SetShortcutKeysEnabled(false);
+</script>
+    
+
     </head>
-  <body background="img\chess_background.png" >
+
+
+
+
+
+  <body background="img\chess_background.png" !important>
 <div class="row">
 	<div class="nav-bar right">
 	 <ul class="button-group">
@@ -36,5 +64,80 @@
     
 
           </ul>
+
+<div class="large row">
+        <div class="large-6 columns">
+<form style="display: none;"><textarea style="display: none;" id="pgnText">
+
+[Event ""]
+[Site "San Francisco"]
+[Date "2013.09.16"]
+[White "Niemann"]
+[Black "Davies"]
+[Result "0-1"]
+[TimeControl ""]
+
+1. e4 c5 2. d4 cxd4 3. c3 Nf6 4. e5 Nd5 5. cxd4 d6 6. f4 Nc6 7. Nc3 dxe5 8. dxe5 Nxc3 9. Qxd8+ Kxd8 10. bxc3 Bf5 11. Nf3 e6 12. Ng5 Bg6 13. Be3 h6 14. Nf3 Kc7 15. Nd4 Nxd4 16. cxd4 Bb4+ 17. Kf2 Rac8 18. g4 Kb8 19. Bg2 Rc2+ 20. Kf3 Rxg2 21. Kxg2 Be4+ 22. Kg3 Bxh1 23. Rxh1 Rc8 24. Rc1 Rxc1 25. Bxc1 Kc7 26. f5 Bc3 27. Kf4 Bxd4 28. Ke4 Bf2 29. f6 g5 30. Ba3 b5 31. Bf8 a5 32. a4 bxa4 33. Kd3 Kc6 34. Kc4 Be1 35. Bxh6 a3 36. Kb3 Bh4 37. Bf8 Kd5 38. Bd6 Bf2 39. Ka2 Bd4 40. Bxa3 Bxe5 41. Bc1 Bxf6 42. Kb3 Ke4 43. Ka4 Bd8 
+0-1
+
+[Event ""]
+[Site "Sacramento"]
+[Date "2013.11.10"]
+[Round ""]
+[White "Kleyberg"]
+[Black "Davies"]
+[Result "1/2-1/2"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 e6 4. Nf3 d5 5. Bb5 Ne7 6. Ne5 Bd7 7. Bxc6 Bxc6 8. d3 dxe4 9. Nxc6 Nxc6 10. Nxe4 Qh4+ 11. g3 Qh3 12. Be3 Qg2 13. Rg1 Qxh2 14. Nxc5 Bxc5 15. Bxc5 O-O-O 16. Qe2 Qxe2+ 17. Kxe2 e5 18. fxe5 Rhe8 19. Bf2 Rxe5+ 20. Kd2 Nd4 21. Bxd4 Rxd4 22. Raf1 Rd7 23. Rf4 Rde7 24. Rg2 f5 25. Rgf2 g6 26. d4 Re3 27. R4f3 Rxf3 28. Rxf3 Re4 29. Kd3 Kd7 30. c4 h5 31. c5 Kc6 32. Kc4 b5+ 33. cxb6 axb6 34. a4 Re1 35. Rc3 Re4 36. b4 g5 37. b5+ Kd6 38. a5 bxa5 39. Ra3 f4 40. gxf4 gxf4 41. Rh3 a4 42. Rxh5 a3 43. Rh6+ Kc7 44. Kc5 a2 45. Rh7+ Kb8 46. Rh8+ Kb7 47. Rh7+ Kb8 1/2-1/2 
+
+[Event "Online"]
+[Site "Chess.com"]
+[Date "2015.04.05"]
+[White "bostrom"]
+[Black "Davies"]
+[Result "0-1"]
+[WhiteElo "2020"]
+[BlackElo "1966"]
+[TimeControl "5|0"]
+[Termination "Davies won by resignation"]
+
+1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 a6 5.h3 b5 6.Be3 Nd7 7.Qd2 c5 8.dxc5 Nxc5 9.O-O-O Bb7 10.Bd4 e5
+ 11.Bxc5 dxc5 12.Qxd8+ Rxd8 13.Rxd8+ Kxd8 14.Nd5 Ne7 15.Nxe7 Kxe7 16.Nd2 Rd8 17.Nb3 Bh6+ 0-1
+
+
+[Event "Online Chess"]
+[Site "Chess.com"]
+[Date "2015.04.05"]
+[White "deprimera"]
+[Black "Davies"]
+[Result "0-1"]
+[WhiteElo "1966"]
+[BlackElo "1956"]
+[TimeControl "5|0"]
+[Termination "Davies won by resignation"]
+
+1.d4 d5 2.Nf3 Nf6 3.c4 e6 4.Nc3 c6 5.Bg5 Be7 6.e3 O-O 7.Bd3 dxc4 8.Bxc4 a6 9.O-O b5 10.Bd3 Nbd7
+ 11.e4 c5 12.e5 Nd5 13.Bxe7 Qxe7 14.Nxd5 exd5 15.Re1 c4 16.Bc2 Re8 17.h3 Nf8 18.Qd2 a5 19.a3 Be6 20.Ng5 b4
+ 21.Ba4 Rec8 22.f4 h6 23.Nxe6 fxe6 24.Re3 Ng6 25.Rf1 Rf8 26.Ref3 Nh4 27.R3f2 bxa3 28.bxa3 Qxa3 29.Bc2 Qg3 30.Rf3 Nxf3+
+ 31.Rxf3 Qh4 32.g4 a4 33.f5 a3 34.Bb1 Rab8 35.Qc1 Rb3 0-1
+
+
+
+
+</textarea></form>
+<!-- paste your PGN above and make sure you dont specify an external source with SetPgnUrl() -->
+
+
+<center>
+<b><span id="GameWhite"></span>&nbsp;-&nbsp;<span id="GameBlack"></span>&nbsp;&nbsp;<span id="GameResult"></span></b>
+<p></p>
+<div id="GameBoard"></div>
+<p></p>
+<div id="GameButtons"></div>
+<p></p>
+<div id="GameSelector"></div>
+</center>
+  </div>
+      </div>
           
   </body>
