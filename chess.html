@@ -7,10 +7,8 @@
     <title>Chess</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link href="pgn4web-2.91\\mini.css" type="text/css" rel="stylesheet" />
-    <link rel="icon" sizes="16x16" href="pgn4web-2.91\\pawn.ico" />
-    <style>
+    <link rel="icon" sizes="16x16" href="img/icon.ico" />
 
-    </style>
     
     
     <script src="js/vendor/modernizr.js"></script>
@@ -18,7 +16,7 @@
     <script type="text/javascript">
    "use strict";
 
-   SetImagePath ("pgn4web-2.91/images/alpha/30");
+   SetImagePath ("pgn4web-2.91/images/alpha/64");
    SetImageType("png");
    SetGameSelectorOptions("Select a game...", false, 0, 8, 0, 0, 0, 0, 10); // (head, num, chEvent, chSite, chRound, chWhite, chBlack, chResult, chDate);
    SetCommentsOnSeparateLines(true);
@@ -31,12 +29,7 @@
     
 
     </head>
-
-
-
-
-
-  <body background="img\chess_background.png" !important>
+  <body background="img\chess_background.png">
 <div class="row">
 	<div class="nav-bar right">
 	 <ul class="button-group">
@@ -65,8 +58,7 @@
 
           </ul>
 
-<div class="large row">
-        <div class="large-6 columns">
+
 <form style="display: none;"><textarea style="display: none;" id="pgnText">
 
 [Event ""]
@@ -137,7 +129,6 @@
 <p></p>
 <div id="GameSelector"></div>
 </center>
-  </div>
-      </div>
+ 
           
   </body>
