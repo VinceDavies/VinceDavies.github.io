@@ -6202,3 +6202,8 @@ th.hide-for-touch {
 
   .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
 
+.spanMiddle {
+    display: table-cell;
+    text-align: center;
+    vertical-align: 200px 0 200px;                     
+}
