@@ -3629,7 +3629,7 @@ a {
   a:hover, a:focus {
     color: #0078a0; }
   a img {
-    border: none; }
+    /*border: none;*/ }
 
 /* Default paragraph styles */
 p {
@@ -6201,9 +6201,3 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
   .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
-
-.spanMiddle {
-    display: table-cell;
-    text-align: center;
-    vertical-align: 200px 0 200px;                     
-}
