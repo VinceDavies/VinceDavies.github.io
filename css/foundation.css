@@ -6201,3 +6201,7 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
   .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
+
+.boxy{
+  display: inline-block;
+}
